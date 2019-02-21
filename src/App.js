@@ -24,7 +24,7 @@ class App extends Component {
                     <div className="image">
                       <img
                         className="card-img-top img-fluid"
-                        src="https://nation.com.pk/digital_images/large/2015-05-10/jk-rowling-believes-in-standing-up-to-bullies-1431261222-3596.jpeg"
+                        src={authors[0].imageUrl}
                         alt="J.K. Rowling"
                       />
                     </div>
@@ -45,7 +45,7 @@ class App extends Component {
                     <div className="image">
                       <img
                         className="card-img-top img-fluid"
-                        src="https://typeset-beta.imgix.net/elite-daily/2016/03/06144207/elite-daily-George-RR-Martin.jpg?w=800&h=800&auto=format&q=70&fit=crop&crop=faces"
+                        src={authors[1].imageUrl}
                         alt="George R.R. Martin"
                       />
                     </div>
@@ -67,7 +67,7 @@ class App extends Component {
                     <div className="image">
                       <img
                         className="card-img-top img-fluid"
-                        src="https://images.8tracks.com/cover/i/010/010/920/tolkeinbigger-2362.jpg?rect=166,0,500,500&q=98&fm=jpg&fit=max"
+                        src={authors[2].imageUrl}
                         alt="J.R.R Tolkein"
                       />
                     </div>
